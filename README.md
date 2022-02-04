@@ -1,3 +1,4 @@
+#BeeHive
 <p align="center">
 <h2> BeeHive <h2>
 </p>
