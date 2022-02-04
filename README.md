@@ -1,5 +1,5 @@
 <p align="center">
-# BeeHive
+<h2> BeeHive <h2>
 </p>
 
 <p align="center">
