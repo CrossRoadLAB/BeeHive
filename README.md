@@ -25,7 +25,7 @@ There is currently no support for Arduino IDE or CircuitPython, only for ESP IDF
 
 |||
 |:--------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------------:|
-| CPU and MEMORY                         | 32-bit Xtensa® dual-core LX7 microprocessor, up to 240 MHz                                                                             |
+| **CPU and MEMORY**                         | 32-bit Xtensa® dual-core LX7 microprocessor, up to 240 MHz                                                                             |
 |                                        | 128-bit data bus and SIMD commands                                                                                                     |
 |                                        | 384 KB ROM                                                                                                                             |
 |                                        | "512KB SRAM, 16KB SRAM in RTC + 8MB PSRAM"                                                                                             |
@@ -36,7 +36,7 @@ There is currently no support for Arduino IDE or CircuitPython, only for ESP IDF
 
 |||
 |:--------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------------:|
-| DIGITAL INTERFACES                     | 4 x SPI                                                                                                                                |
+| **DIGITAL INTERFACES**                     | 4 x SPI                                                                                                                                |
 |                                        | "1 x LCD interface (8-bit ~ 16-bit parallel RGB, I8080 and MOTO6800), supporting conversion between RGB565, YUV422, YUV420 and YUV411" |
 |                                        | 1 x DVP 8-bit ~ 16-bit camera interface                                                                                                |
 |                                        | 3 x UART                                                                                                                               |
@@ -54,30 +54,30 @@ There is currently no support for Arduino IDE or CircuitPython, only for ESP IDF
 
 |||
 |:--------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------------:|
-| ANALOG INTERFACES                      | 2 x 12-bit SAR ADC, up to 20 channels                                                                                                  |
+| **ANALOG INTERFACES**                      | 2 x 12-bit SAR ADC, up to 20 channels                                                                                                  |
 |                                        | 1 x temperature sensor                                                                                                                 |
 |                                        | 14 x IO touch detection                                                                                                                |
 
 |||
 |:--------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------------:|
-| TIMER                                  | 4 x 54-bit general purpose timer                                                                                                       |
+| **TIMER**                                  | 4 x 54-bit general purpose timer                                                                                                       |
 |                                        | 1 x 52-bit system timer                                                                                                                |
 |                                        | 3 x watchdog timer                                                                                                                     |
 
 |||
 |:--------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------------:|
-| LOW POWER MANAGEMENT                   | Power management unit with five power modes                                                                                            |
+| **LOW POWER MANAGEMENT**                   | Power management unit with five power modes                                                                                            |
 |                                        | Ultra-Low-Power (ULP) Coprocessors: - ULP-RISC-V Coprocessor - ULP-FSM Coprocessor                                                     |
 
 |||
 |:--------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------------:|
-| SECURITY                               | Safe Boot                                                                                                                              |
+| **SECURITY**                               | Safe Boot                                                                                                                              |
 |                                        | Flash encryption                                                                                                                       |
 |                                        | 4096-bit OTP, up to 1652-bit for users                                                                                                 |
 
 |||
 |:--------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------------:|
-| HARDWARE ACCELERATION FOR CRYPTOGRAPHY | AES-128/256 (FIPS PUB 197)                                                                                                             |
+| **HARDWARE ACCELERATION FOR CRYPTOGRAPHY** | AES-128/256 (FIPS PUB 197)                                                                                                             |
 |                                        | Hash (FIPS PUB 180-4)                                                                                                                  |
 |                                        | RSA                                                                                                                                    |
 |                                        | Random Number Generator (RNG)                                                                                                          |
@@ -86,12 +86,12 @@ There is currently no support for Arduino IDE or CircuitPython, only for ESP IDF
 
 |||
 |:--------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------------:|
-| WIFI                                   | IEEE 802.11 b / g / n                                                                                                                  |
+| **WIFI**                                   | IEEE 802.11 b / g / n                                                                                                                  |
 |                                        | 4 x virtual Wi-Fi interfaces                                                                                                           |
 
 |||
 |:--------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------------:|
-| BLUETOOTH                              | Bluetooth LE: Bluetooth 5, Bluetooth network                                                                                           |
+| **BLUETOOTH**                              | Bluetooth LE: Bluetooth 5, Bluetooth network                                                                                           |
 |                                        | Speed: 125 Kbps, 500 Kbps, 1 Mbps, 2 Mbps                                                                                              |
 |                                        | Internal mechanism of coexistence between Wi-Fi and Bluetooth to share the same antenna                                                |
 
