@@ -23,6 +23,7 @@ There is currently no support for Arduino IDE or CircuitPython, only for ESP IDF
  
 <h1 align="center"> SPECIFICATIONS </h1>
 
+<p align="center">
 |||
 |:--------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------------:|
 | **CPU and MEMORY**                         | 32-bit Xtensa® dual-core LX7 microprocessor, up to 240 MHz                                                                             |
@@ -94,4 +95,4 @@ There is currently no support for Arduino IDE or CircuitPython, only for ESP IDF
 | **BLUETOOTH**                              | Bluetooth LE: Bluetooth 5, Bluetooth network                                                                                           |
 |                                        | Speed: 125 Kbps, 500 Kbps, 1 Mbps, 2 Mbps                                                                                              |
 |                                        | Internal mechanism of coexistence between Wi-Fi and Bluetooth to share the same antenna                                                |
-
+</p>
