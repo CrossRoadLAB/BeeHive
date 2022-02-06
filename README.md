@@ -23,4 +23,4 @@ There is currently no support for Arduino IDE or CircuitPython, only for ESP IDF
  
 <h2 align="center"> SPECIFICATIONS </h2>
  
- ## test
+ # TEST
