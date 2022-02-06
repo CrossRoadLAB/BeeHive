@@ -23,49 +23,49 @@ There is currently no support for Arduino IDE or CircuitPython, only for ESP IDF
  
 <h1 align="center"> SPECIFICATIONS </h1>
  
- |                **CPU e MEMORIA**               | Microprocessore Xtensa® dual-core LX7 a 32 bit, fino a 240 MHz                                                                          |
-|||
-|                                                | Bus dati a 128 bit e comandi SIMD                                                                                                       |
-|                                                | 384 KB ROM                                                                                                                              |
-|                                                | 512 KB SRAM, 16 KB SRAM in RTC + 8MB PSRAM                                                                                              |
-|                                                | 8 MB SPI flash                                                                                                                          |
-|                                                | Interfacce SPI, Dual SPI, Quad SPI, Octal SPI, QPI e OPI                                                                                |
-|                                                | È supportato il controller flash con cache                                                                                              |
-|                                                | È supportata la programmazione flash in-circuit (ICP)                                                                                   |
-|             **INTERFACCE DIGITALI**            | 4 × SPI                                                                                                                                 |
-|                                                | 1 × interfaccia LCD (RGB parallelo a 8 bit ~ 16 bit, I8080 e MOTO6800), che supporta la conversione tra RGB565, YUV422, YUV420 e YUV411 |
-|                                                | 1 × Interfaccia fotocamera DVP 8-bit ~16-bit                                                                                            |
-|                                                | 3 × UART                                                                                                                                |
-|                                                | 2 × I2C                                                                                                                                 |
-|                                                | 2 × I2S                                                                                                                                 |
-|                                                | 1 × RMT (TX/RX)                                                                                                                         |
-|                                                | 1 × Contatore di impulsi                                                                                                                |
-|                                                | Controller LED PWM, fino a 8 canali                                                                                                     |
-|                                                | 1 × USB OTG (USB1 e USB2)                                                                                                               |
-|                                                | 1 × Controller USB Seriale/JTAG                                                                                                         |
-|                                                | 2 × MCPWM                                                                                                                               |
-|                                                | 1 × Controller host SDIO con 2 slot                                                                                                     |
-|                                                | Controller DMA generale (GDMA), con 5 canali di trasmissione e 5 canali di ricezione                                                    |
-|                                                | 1 × Controller TWAI®, compatibile con ISO 11898-1 (Specifica CAN 2.0)                                                                   |
-|            **INTERFACCE ANALOGICHE**           | 2 × ADC SAR a 12 bit, fino a 20 canali                                                                                                  |
-|                                                | 1 × sensore di temperatura                                                                                                              |
-|                                                | 14 × IO di rilevamento del touch                                                                                                        |
-|                    **TIMER**                   | 4 × Timer per uso generico a 54 bit                                                                                                     |
-|                                                | 1 × Timer di sistema a 52 bit                                                                                                           |
-|                                                | 3 × watchdog timer                                                                                                                      |
-|          **GESTIONE A BASSA POTENZA**          | Unità di gestione dell'alimentazione con cinque modalità di alimentazione                                                               |
-|                                                | Coprocessori Ultra-Low-Power (ULP): - Coprocessore ULP-RISC-V - Coprocessore ULP-FSM                                                    |
-|                  **SICUREZZA**                 | Avvio sicuro                                                                                                                            |
-|                                                | Crittografia flash                                                                                                                      |
-|                                                | OTP a 4096 bit, fino a 1652 bit per gli utenti                                                                                          |
-| **ACCELERAZIONE HARDWARE PER LA CRITTOGRAFIA** | AES-128/256 (FIPS PUB 197)                                                                                                              |
-|                                                | Hash (FIPS PUB 180-4)                                                                                                                   |
-|                                                | RSA                                                                                                                                     |
-|                                                | Generatore di numeri casuali (RNG)                                                                                                      |
-|                                                | HMAC                                                                                                                                    |
-|                                                | Firma digitale                                                                                                                          |
-|                    **WIFI**                    | IEEE 802.11 b/g/n                                                                                                                       |
-|                                                | 4 × interfacce Wi-Fi virtuali                                                                                                           |
-|                  **BLUETOOTH**                 | Bluetooth LE: Bluetooth 5, rete Bluetooth                                                                                               |
-|                                                | Velocità: 125 Kbps, 500 Kbps, 1 Mbps, 2 Mbps                                                                                            |
-|                                                | Meccanismo interno di coesistenza tra Wi-Fi e Bluetooth per condividere la stessa antenna                                               |
+| CPU and MEMORY                         | 32-bit Xtensa® dual-core LX7 microprocessor, up to 240 MHz |
+| 
+|                                        | 128-bit data bus and SIMD commands                                                                                                     |
+|                                        | 384 KB ROM                                                                                                                             |
+|                                        | "512KB SRAM, 16KB SRAM in RTC + 8MB PSRAM"                                                                                             |
+|                                        | 8 MB SPI flash                                                                                                                         |
+|                                        | "SPI, Dual SPI, Quad SPI, Octal SPI, QPI and OPI interfaces"                                                                           |
+|                                        | Cached flash controller is supported                                                                                                   |
+|                                        | In-circuit flash programming (ICP) is supported                                                                                        |
+| DIGITAL INTERFACES                     | 4 x SPI                                                                                                                                |
+|                                        | 1 x LCD interface (8-bit ~ 16-bit parallel RGB, I8080 and MOTO6800), supporting conversion between RGB565, YUV422, YUV420 and YUV411 |
+|                                        | 1 x DVP 8-bit ~ 16-bit camera interface                                                                                                |
+|                                        | 3 x UART                                                                                                                               |
+|                                        | 2 x I2C                                                                                                                                |
+|                                        | 2 x I2S                                                                                                                                |
+|                                        | 1 x RMT (TX / RX)                                                                                                                      |
+|                                        | 1 x Pulse counter                                                                                                                      |
+|                                        | PWM LED controller, up to 8 channels"                                                                                                  |
+|                                        | 1 x USB OTG (USB1 and USB2)                                                                                                            |
+|                                        | 1 x USB Serial / JTAG Controller                                                                                                       |
+|                                        | 2 x MCPWM                                                                                                                              |
+|                                        | 1 x SDIO host controller with 2 slots                                                                                                  |
+|                                        | General DMA controller (GDMA), with 5 transmission channels and 5 reception channels"                                                  |
+|                                        | 1 x TWAI® Controller, compatible with ISO 11898-1 (CAN Specification 2.0)"                                                             |
+| ANALOG INTERFACES                      | 2 x 12-bit SAR ADC, up to 20 channels                                                                                                  |
+|                                        | 1 x temperature sensor                                                                                                                 |
+|                                        | 14 x IO touch detection                                                                                                                |
+| TIMER                                  | 4 x 54-bit general purpose timer                                                                                                       |
+|                                        | 1 x 52-bit system timer                                                                                                                |
+|                                        | 3 x watchdog timer                                                                                                                     |
+| LOW POWER MANAGEMENT                   | Power management unit with five power modes                                                                                            |
+|                                        | Ultra-Low-Power (ULP) Coprocessors: - ULP-RISC-V Coprocessor - ULP-FSM Coprocessor                                                     |
+| SECURITY                               | Safe Boot                                                                                                                              |
+|                                        | Flash encryption                                                                                                                       |
+|                                        | 4096-bit OTP, up to 1652-bit for users                                                                                                 |
+| HARDWARE ACCELERATION FOR CRYPTOGRAPHY | AES-128/256 (FIPS PUB 197)                                                                                                             |
+|                                        | Hash (FIPS PUB 180-4)                                                                                                                  |
+|                                        | RSA                                                                                                                                    |
+|                                        | Random Number Generator (RNG)                                                                                                          |
+|                                        | HMAC                                                                                                                                   |
+|                                        | Digital signature                                                                                                                      |
+| WIFI                                   | IEEE 802.11 b / g / n                                                                                                                  |
+|                                        | 4 x virtual Wi-Fi interfaces                                                                                                           |
+| BLUETOOTH                              | Bluetooth LE: Bluetooth 5, Bluetooth network                                                                                           |
+|                                        | Speed: 125 Kbps, 500 Kbps, 1 Mbps, 2 Mbps                                                                                              |
+|                                        | Internal mechanism of coexistence between Wi-Fi and Bluetooth to share the same antenna                                                |
