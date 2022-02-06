@@ -85,3 +85,8 @@ There is currently no support for Arduino IDE or CircuitPython, only for ESP IDF
 - **USB to UART bridge**: The chip that bridges the USB to UART offers a data transfer rate of up to 3 Mbps.
 - **RGB LED**: Addressable RGB LED, driven by GPIO48.
 - **3.3V Power LED**: Lights up when USB power is connected to the board.
+
+<h1 align="center">SETUP</h1>
+
+To setup the board on your pc you can follow the tutorial on the Espressif website:
+https://docs.espressif.com/projects/esp-idf/en/latest/esp32s3/get-started/index.html#
