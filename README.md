@@ -90,3 +90,7 @@ There is currently no support for Arduino IDE or CircuitPython, only for ESP IDF
 
 To setup the board on your pc you can follow the tutorial on the Espressif website:
 https://docs.espressif.com/projects/esp-idf/en/latest/esp32s3/get-started/index.html#
+
+<h1 align="center">PROJECT SITE</h1>
+
+https://www.crossroadlab.org/projects/BeeHive.html
