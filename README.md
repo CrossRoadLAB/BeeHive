@@ -22,7 +22,8 @@ There is currently no support for Arduino IDE or CircuitPython, only for ESP IDF
  </p>
  
 <h1 align="center"> SPECIFICATIONS </h1>
- 
+
+|||
 |:--------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------------:|
 | CPU and MEMORY                         | 32-bit Xtensa® dual-core LX7 microprocessor, up to 240 MHz                                                                             |
 |                                        | 128-bit data bus and SIMD commands                                                                                                     |
