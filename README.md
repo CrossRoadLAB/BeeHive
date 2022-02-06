@@ -74,6 +74,7 @@ There is currently no support for Arduino IDE or CircuitPython, only for ESP IDF
 <h1 align="center"> PINOUT </h1>
 
 ![BeeHive_pinout](https://user-images.githubusercontent.com/83240004/152701905-e9565f18-011b-4155-afdd-153d705dddf1.png)
+
 ![BeeHive](https://user-images.githubusercontent.com/83240004/152701933-6a1ecb0d-0810-49ef-bb38-5fc77ad8c0f4.png)
 
 - **AMS117 3.3V**: Power regulator that converts a 4.5 to 12V input power into a 3.3V output.
