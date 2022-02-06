@@ -22,3 +22,7 @@ There are three mutually exclusive ways to provide power to the board:
 <p align="center">
 There is currently no support for Arduino IDE or CircuitPython, only for ESP IDF
  </p>
+ 
+ ## SPECIFICATIONS
+ 
+ 
