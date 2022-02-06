@@ -74,3 +74,13 @@ There is currently no support for Arduino IDE or CircuitPython, only for ESP IDF
 <h1 align="center"> PINOUT </h1>
 
 ![BeeHive_pinout](https://user-images.githubusercontent.com/83240004/152701905-e9565f18-011b-4155-afdd-153d705dddf1.png)
+![BeeHive](https://user-images.githubusercontent.com/83240004/152701933-6a1ecb0d-0810-49ef-bb38-5fc77ad8c0f4.png)
+
+- **AMS117 3.3V**: Power regulator that converts a 4.5 to 12V input power into a 3.3V output.
+- **USB to UART Port**: A Micro-USB port used for powering the board, for flashing applications on the chip, as well as for communicating with the chip via the built-in USB to UART bridge.
+- **Boot Button**: Download button. Holding down the Boot button and then pressing the Reset button starts the firmware download mode via the serial port.
+- **Reset Button**: Press this button to restart the system.
+- **ESP32-S3 USB port (USB1 and USB2)**: USB OTG interface compliant with USB 1.1 specification. The interface is used for powering the board, for flashing applications on the chip, for communicating with the chip via USB 1.1 protocols, as well as for JTAG debugging. There are two USB OTG ports (Micro-USB and USB 2.0 type A) in which the use of one excludes the use of the other.
+- **USB to UART bridge**: The chip that bridges the USB to UART offers a data transfer rate of up to 3 Mbps.
+- **RGB LED**: Addressable RGB LED, driven by GPIO48.
+- **3.3V Power LED**: Lights up when USB power is connected to the board.
