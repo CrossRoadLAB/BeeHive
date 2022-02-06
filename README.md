@@ -14,3 +14,7 @@ There are three mutually exclusive ways to provide power to the board:
 - Pin 5V and GND
 - Pin 3v3 and GND
 
+<p align="center">
+  <i class="fas fa-exclamation-triangle"></i>  ATTENTION <i class="fas fa-exclamation-triangle"></i>
+</(p>
+
