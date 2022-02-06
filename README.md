@@ -28,25 +28,25 @@ There is currently no support for Arduino IDE or CircuitPython, only for ESP IDF
 | **CPU and MEMORY**                         | 32-bit Xtensa® dual-core LX7 microprocessor, up to 240 MHz                                                                             |
 |                                        | 128-bit data bus and SIMD commands                                                                                                     |
 |                                        | 384 KB ROM                                                                                                                             |
-|                                        | "512KB SRAM, 16KB SRAM in RTC + 8MB PSRAM"                                                                                             |
+|                                        | 512KB SRAM, 16KB SRAM in RTC + 8MB PSRAM                                                                                             |
 |                                        | 8 MB SPI flash                                                                                                                         |
-|                                        | "SPI, Dual SPI, Quad SPI, Octal SPI, QPI and OPI interfaces"                                                                           |
+|                                        | SPI, Dual SPI, Quad SPI, Octal SPI, QPI and OPI interfaces                                                                          |
 |                                        | Cached flash controller is supported                                                                                                   |
 |                                        | In-circuit flash programming (ICP) is supported                                                                                        |
 | **DIGITAL INTERFACES**                     | 4 x SPI                                                                                                                                |
-|                                        | "1 x LCD interface (8-bit ~ 16-bit parallel RGB, I8080 and MOTO6800), supporting conversion between RGB565, YUV422, YUV420 and YUV411" |
+|                                        | 1 x LCD interface (8-bit ~ 16-bit parallel RGB, I8080 and MOTO6800), supporting conversion between RGB565, YUV422, YUV420 and YUV411 |
 |                                        | 1 x DVP 8-bit ~ 16-bit camera interface                                                                                                |
 |                                        | 3 x UART                                                                                                                               |
 |                                        | 2 x I2C                                                                                                                                |
 |                                        | 2 x I2S                                                                                                                                |
 |                                        | 1 x RMT (TX / RX)                                                                                                                      |
 |                                        | 1 x Pulse counter                                                                                                                      |
-|                                        | PWM LED controller, up to 8 channels"                                                                                                  |
+|                                        | PWM LED controller, up to 8 channels                                                                                                  |
 |                                        | 1 x USB OTG (USB1 and USB2)                                                                                                            |
 |                                        | 1 x USB Serial / JTAG Controller                                                                                                       |
 |                                        | 2 x MCPWM                                                                                                                              |
 |                                        | 1 x SDIO host controller with 2 slots                                                                                                  |
-|                                        | General DMA controller (GDMA), with 5 transmission channels and 5 reception channels"                                                  |
+|                                        | General DMA controller (GDMA), with 5 transmission channels and 5 reception channels                                                  |
 |                                        | 1 x TWAI® Controller, compatible with ISO 11898-1 (CAN Specification 2.0)                                                             |
 | **ANALOG INTERFACES**                      | 2 x 12-bit SAR ADC, up to 20 channels                                                                                                  |
 |                                        | 1 x temperature sensor                                                                                                                 |
