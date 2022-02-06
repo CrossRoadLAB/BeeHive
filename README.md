@@ -33,6 +33,7 @@ There is currently no support for Arduino IDE or CircuitPython, only for ESP IDF
 |                                        | "SPI, Dual SPI, Quad SPI, Octal SPI, QPI and OPI interfaces"                                                                           |
 |                                        | Cached flash controller is supported                                                                                                   |
 |                                        | In-circuit flash programming (ICP) is supported                                                                                        |
+
 |||
 |:--------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------------:|
 | DIGITAL INTERFACES                     | 4 x SPI                                                                                                                                |
@@ -50,25 +51,30 @@ There is currently no support for Arduino IDE or CircuitPython, only for ESP IDF
 |                                        | 1 x SDIO host controller with 2 slots                                                                                                  |
 |                                        | General DMA controller (GDMA), with 5 transmission channels and 5 reception channels"                                                  |
 |                                        | 1 x TWAI® Controller, compatible with ISO 11898-1 (CAN Specification 2.0)                                                             |
+
 |||
 |:--------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------------:|
 | ANALOG INTERFACES                      | 2 x 12-bit SAR ADC, up to 20 channels                                                                                                  |
 |                                        | 1 x temperature sensor                                                                                                                 |
 |                                        | 14 x IO touch detection                                                                                                                |
+
 |||
 |:--------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------------:|
 | TIMER                                  | 4 x 54-bit general purpose timer                                                                                                       |
 |                                        | 1 x 52-bit system timer                                                                                                                |
 |                                        | 3 x watchdog timer                                                                                                                     |
+
 |||
 |:--------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------------:|
 | LOW POWER MANAGEMENT                   | Power management unit with five power modes                                                                                            |
 |                                        | Ultra-Low-Power (ULP) Coprocessors: - ULP-RISC-V Coprocessor - ULP-FSM Coprocessor                                                     |
+
 |||
 |:--------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------------:|
 | SECURITY                               | Safe Boot                                                                                                                              |
 |                                        | Flash encryption                                                                                                                       |
 |                                        | 4096-bit OTP, up to 1652-bit for users                                                                                                 |
+
 |||
 |:--------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------------:|
 | HARDWARE ACCELERATION FOR CRYPTOGRAPHY | AES-128/256 (FIPS PUB 197)                                                                                                             |
@@ -77,10 +83,12 @@ There is currently no support for Arduino IDE or CircuitPython, only for ESP IDF
 |                                        | Random Number Generator (RNG)                                                                                                          |
 |                                        | HMAC                                                                                                                                   |
 |                                        | Digital signature                                                                                                                      |
+
 |||
 |:--------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------------:|
 | WIFI                                   | IEEE 802.11 b / g / n                                                                                                                  |
 |                                        | 4 x virtual Wi-Fi interfaces                                                                                                           |
+
 |||
 |:--------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------------:|
 | BLUETOOTH                              | Bluetooth LE: Bluetooth 5, Bluetooth network                                                                                           |
