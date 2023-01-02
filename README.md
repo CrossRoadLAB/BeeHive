@@ -13,13 +13,6 @@ There are three mutually exclusive ways to provide power to the board:
 - USB-UART port and ESP32-S3 USB port (one or both), default power supply (recommended)
 - Pin 5V and GND
 - Pin 3v3 and GND
-
-<p align="center">
-  ⚠️ <b>ATTENTION</b> ⚠️
-</p>
-<p align="center">
-There is currently no support for Arduino IDE or CircuitPython, only for ESP IDF
- </p>
  
 <h1 align="center"> SPECIFICATIONS </h1>
   
