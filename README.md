@@ -86,7 +86,3 @@ https://docs.espressif.com/projects/esp-idf/en/latest/esp32s3/get-started/index.
 
 To installing board on Arduino IDE you can follow tutorial on the Espressif website:
 https://docs.espressif.com/projects/arduino-esp32/en/latest/installing.html
-
-<h1 align="center">PROJECT SITE</h1>
-
-https://www.crossroadlab.org/projects/BeeHive.html
